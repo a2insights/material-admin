@@ -1,0 +1,24 @@
+{
+    "name": "atiladanvi/laravel-material-admin",
+    "description": "template to init project whit panel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atiladanvi",
+            "email": "atila.danvi@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MaterialAdmin\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MaterialAdmin\\MaterialAdminServiceProvider"
+            ]
+        }
+    }
+}
