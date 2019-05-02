@@ -25,11 +25,11 @@ class MaterialAdminServiceProvider extends ServiceProvider
         ], 'material/assets');
 
         $this->publishes([
-            __DIR__.'/resources/views' => resource_path('resources/views/vendor/material'),
+            __DIR__.'/resources/views' => resource_path('views/vendor/material'),
         ], 'material/views');
 
         $this->publishes([
-            __DIR__.'/config/material.php' => config_path('config/material.php'),
+            __DIR__.'/config/material.php' => config_path('material.php'),
         ], 'material/config');
     }
 
