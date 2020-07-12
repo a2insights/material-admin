@@ -10,7 +10,7 @@
             </ul>
         </nav>
         <div class="copyright float-right">
-            &copy; copyright 2019
+            <p class="m-0 small">Copyright &copy; {{ config('app.name') }} - {{ date('Y') }}</p>
         </div>
    </div>
 </footer>

@@ -1,6 +1,6 @@
 {
-    "name": "atiladanvi/laravel-material-admin",
-    "description": "template to init project whit panel",
+    "name": "a2ensite/material-admin",
+    "description": "a part of octo system",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,9 @@
             "MaterialAdmin\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "a2ensite/octo-core": "dev-master"
+    },
     "extra": {
         "laravel": {
             "providers": [
