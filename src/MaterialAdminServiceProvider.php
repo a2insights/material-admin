@@ -1,6 +1,6 @@
 <?php
 
-namespace MaterialAdmin;
+namespace Octo\MaterialAdmin;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,7 +11,7 @@ class MaterialAdminServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/resources/views', 'material-admin');
 
         $this->publishes([
-            __DIR__.'/public/assets' => public_path('vendor/material-admin/assets'),
+            __DIR__.'/public/assets' => public_path('vendor/octo/themes/material-admin/assets'),
         ], 'material-admin/assets');
     }
 

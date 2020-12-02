@@ -1,25 +1,36 @@
 {
     "name": "a2insights/material-admin",
     "description": "This is a part of octo system",
+    "keywords": [
+        "laravel",
+        "clean-blog"
+    ],
+    "homepage": "https://github.com/a2insights/material-admin",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
-            "name": "Atiladanvi",
-            "email": "atila.danvi@outlook.com"
+            "name": "Atila Silva",
+            "email": "atila.danvi@outlook.com",
+            "role": "Developer"
         }
     ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.8 || ^6.0 || ^7.0"
+    },
     "autoload": {
         "psr-4": {
-            "MaterialAdmin\\": "src/"
+            "Octo\\MaterialAdmin\\": "src"
         }
     },
-    "require": {
-        "a2ensite/octo-core": "dev-master"
+    "config": {
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MaterialAdmin\\MaterialAdminServiceProvider"
+                "Octo\\MaterialAdmin\\MaterialAdminServiceProvider"
             ]
         }
     }

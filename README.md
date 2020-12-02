@@ -1,34 +1,43 @@
-# Material Admin
+# MaterialAdmin
 
-Material Admin base package offer a blank admin panel using material [TIM adminPanel](https://demos.creative-tim.com/material-dashboard/examples/dashboard.html)
+### A part of Octo system
 
-### Made by TIM Creative
-![Product Gif](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/material-dashboard-html/material-dashboard-free.gif)
+[![GitHub license](https://img.shields.io/github/license/gothinkster/laravel-realworld-example-app.svg)](https://raw.githubusercontent.com/gothinkster/laravel-realworld-example-app/master/LICENSE)
+
+> ### Template Material Admin
+PRs and issues welcome!
 
 ## Installation
 
-Into your laravel aplication folder run:
+You can install the package via composer:
 
 ```bash
-composer require atiladanvi/laravel-material-admin
+composer require a2insights/material-admin
 ```
 
-## Publish files
+## Usage
 
-```bash
-php artisan vendor:publish --provider="MaterialAdmin\MaterialAdminServiceProvider"
+``` php
+php artisan vendor:publish --provider="Octo\MaterialAdmin\MaterialAdminServiceProvider"
 ```
 
-### Finish
-You can customize the route prefix and middleware default in `config/material.php
-`
-#### Customize views:
-If you published the vendor files you can extend the main template in your views:
-`/resource/views/vendor/material/index.blade.php`
+### Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+### Security
+
+If you discover any security related issues, please email atila.danvi@outlook.com instead of using the issue tracker.
+
+## Credits
+
+- [Atila Silva](https://github.com/atiladanvi)
+- [All Contributors](../../contributors)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
